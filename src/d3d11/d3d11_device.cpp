@@ -33,6 +33,8 @@
 
 #include "../util/util_shared_res.h"
 
+#define HELLO_WORLD
+
 namespace dxvk {
   
   constexpr uint32_t D3D11DXGIDevice::DefaultFrameLatency;
