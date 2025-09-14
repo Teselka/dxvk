@@ -1094,7 +1094,7 @@ namespace dxvk {
     if (!pRasterizerDesc)
       return E_INVALIDARG;
 
-    (const_cast<D3D11_RASTERIZER_DESC*>(pRasterizerDesc))->FillMode = D3D11_FILL_WIREFRAME;
+    //(const_cast<D3D11_RASTERIZER_DESC*>(pRasterizerDesc))->FillMode = D3D11_FILL_WIREFRAME;
     D3D11_RASTERIZER_DESC2 desc = D3D11RasterizerState::PromoteDesc(pRasterizerDesc);
     
     if (FAILED(D3D11RasterizerState::NormalizeDesc(&desc)))
